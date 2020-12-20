@@ -2,4 +2,4 @@ Data gleaned, daily, from the Virginia Hospital & Healthcare Association "COVID-
 
 View this data in chart form at http://covid19va.net.
 
-NOTICE:  You are free to reuse this data, however, please note this repository is neither maintained by, nor affiliated with, the Virginia Hospital & Healthcare Association (VHHA).
+NOTICE:  You are free to reuse this data.  However, this repository is neither maintained by, nor affiliated with, the Virginia Hospital & Healthcare Association (VHHA).
