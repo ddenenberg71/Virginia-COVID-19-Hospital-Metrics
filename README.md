@@ -1,10 +1,10 @@
 # Overview
 
-Data gleaned, daily, from the Virginia Hospital & Healthcare Association "COVID-19 in Virginia Hospitals" dashboard at https://www.vhha.com/communications/virginia-hospital-covid-19-data-dashboard/ by David Denenberg. View this data in chart form at http://covid19va.net.
+Data gleaned daily, by David Denenberg, from the Virginia Hospital & Healthcare Association "COVID-19 in Virginia Hospitals" dashboard at https://www.vhha.com/communications/virginia-hospital-covid-19-data-dashboard/. View this data in chart form at http://covid19va.net.
 
 # Notice
 
-You are free to reuse this data.  However, this repository is neither maintained by, nor affiliated with, the Virginia Hospital & Healthcare Association (VHHA).
+You are free to reuse this data.  This repository is **not** affiliated with the Virginia Hospital & Healthcare Association (VHHA) or the Virginia Department of Health (VDH).
 
 # Fields
 
