@@ -7,7 +7,7 @@ Data gleaned daily, by David Denenberg, from the Virginia Hospital & Healthcare 
 You are free to reuse this data.  This repository is **not** affiliated with the Virginia Hospital & Healthcare Association (VHHA) or the Virginia Department of Health (VDH).
 
 # Fields
-Text appearing in quotes comes directly from the VHHA COVID-19 dashboard (as it appeared on December 26, 2020).
+Text appearing in quotes comes directly from the VHHA COVID-19 dashboard (as it appeared on December 26, 2020).  An empty/missing value usually indicates the VHHA had not yet added the item to the dashboard as of the date indicated. 
 
 - date: YYYY-MM-DD format.  "As of" date from the dashboard.
 - hospitalized: Integer. "Combined number of confirmed positive COVID-19 patients who are currently hospitalized, and hospitalized patients whose COVID-19 test results are pending.
