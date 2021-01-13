@@ -27,6 +27,6 @@ Text appearing in quotes comes directly from the VHHA COVID-19 dashboard (as it 
 - icuSurgeOccupancy: Decimal (representing a percentage). "ICU Occupancy including Surge Beds". 
 
 # Observations
-Various observations of data observed in the VHHA Dashboard.
+Various observations of data published in the VHHA Dashboard.
 
 - 2020-12-28: On this day the dashboard showed a count of ICU Surge Beds of 1,269 even though the prior day showed 869 and the next day showed 850.  This was likely a typo from the VHHA.
