@@ -6,6 +6,10 @@ Data gleaned daily, by David Denenberg, from the Virginia Hospital & Healthcare 
 
 You are free to reuse this data.  This repository is **not** affiliated with the Virginia Hospital & Healthcare Association (VHHA) or the Virginia Department of Health (VDH).
 
+# Advisories
+
+- 2021-01-15: Today the VHHA added a "COVID-19 Vaccines Administered by Hospitals" statistic, but described it as a "weekly tally."  I will monitor the values for a few days so I can better understand what they mean: if it will be a cumulative number that is just updated once a week or if the tally is going to reset on a weekly basis.  
+
 # Fields
 Text appearing in quotes comes directly from the VHHA COVID-19 dashboard (as it appeared on December 26, 2020).  An empty/missing value usually indicates the VHHA had not yet added the item to the dashboard as of the date indicated. 
 
