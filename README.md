@@ -8,10 +8,15 @@ You are free to reuse this data.  This repository is **not** affiliated with the
 
 # Advisories
 
-- 2021-01-15: Today the VHHA added a "COVID-19 Vaccines Administered by Hospitals" statistic, but described it as a "weekly tally."  I will monitor the values for a few days so I can better understand what they mean: if it will be a cumulative number that is just updated once a week or if the tally is going to reset on a weekly basis.  
+- (none)  
 
-# Fields
-Text appearing in quotes comes directly from the VHHA COVID-19 dashboard (as it appeared on December 26, 2020).  An empty/missing value usually indicates the VHHA had not yet added the item to the dashboard as of the date indicated. 
+# Files
+
+- vhhaCovid19HospitalMetrics.csv: Statistics updated daily by the VHHA.
+- vhhaCovid19Vaccinations.csv: Vaccination statistic updated weekly by the VHHA. 
+
+# Fields in vhhaCovid19HospitalMetrics.csv
+Explanations appearing in quotes come directly from the VHHA COVID-19 dashboard (as it appeared on December 26, 2020).  An empty/missing value usually indicates the VHHA had not yet added the item to the dashboard as of the date indicated. 
 
 - date: YYYY-MM-DD format.  "As of" date from the dashboard.
 - hospitalized: Integer. "Combined number of confirmed positive COVID-19 patients who are currently hospitalized, and hospitalized patients whose COVID-19 test results are pending.
@@ -29,6 +34,12 @@ Text appearing in quotes comes directly from the VHHA COVID-19 dashboard (as it 
 - icuOccupancy: Decimal (representing a percentage). "ICU Occupancy" and "Current total ICU bed occupancy in Virginia hospitals, including COVID-19 and non-COVID patients."  This comment also applies to the next two statistics.
 - icuSurgeBeds: Integer. "ICU Surge Beds"
 - icuSurgeOccupancy: Decimal (representing a percentage). "ICU Occupancy including Surge Beds". 
+
+# Fields in vhhaCovid19Vaccinations.csv
+Explanations appearing in quotes come directly from the VHHA COVID-19 dashboard
+
+- date: YYYY-MM-DD format.  "Administered as of" date as reported in the dashboard.
+- totalHospitalVaccinations: Integer. "COVID-19 Vaccines Administered by Hospitals. Weekly tally of COVID-19 vaccine doses administered by Virginia hospitals and health systems."  The "weekly tally" explanation from the VHHA is a bit confusing.  This number is, indeed, an inception-to-date cumulative count of COVID-19 vaccinations.
 
 # Observations
 Various observations of data published in the VHHA Dashboard.
