@@ -8,7 +8,7 @@ You are free to reuse this data.  This repository is **not** affiliated with the
 
 # Advisories
 
-- (none)  
+- 2021-02-04: At some point around 9AM ET on February 4, the VHHA reverted the weekly vaccination total from February 2 to January 26.  It is unclear if this was intentional or a temporary error.
 
 # Files
 
