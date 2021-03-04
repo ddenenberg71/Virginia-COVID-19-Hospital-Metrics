@@ -8,7 +8,7 @@ You are free to reuse this data.  This repository is **not** affiliated with the
 
 # Advisories
 
-- no current advisories
+- 2021-03-04: as of 5:30PM ET, the VHHA COVID-19 dashboard is still showing March 3rd data.
 
 # Files
 
