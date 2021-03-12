@@ -8,7 +8,7 @@ You are free to reuse this data.  This repository is **not** affiliated with the
 
 # Advisories
 
-- No advisories.
+- 2021-03-12: Today the VHHA dashboard showed a count of 114 for "Number of Virginia hospitals experiencing difficulty in obtaining or replenishing other medical supplies in the next 72 hours."  I am assuming this is a typo.  Since early April 2020, this number has never exceed 3.  It's only ever been non-zero about 35 times in the last ~340 days and hasn't been greater than 1 since mid-April 2020.  For now, I recorded the observed 114 as zero, but will correct it if it becomes clear there is, indeed, some sudden and pervasive supply challenge. 
 
 # Files
 
