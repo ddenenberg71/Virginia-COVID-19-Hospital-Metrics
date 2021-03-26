@@ -6,10 +6,9 @@ Data gleaned daily, by David Denenberg, from the Virginia Hospital & Healthcare 
 
 You are free to reuse this data.  This repository is **not** affiliated with the Virginia Hospital & Healthcare Association (VHHA) or the Virginia Department of Health (VDH).
 
-# Advisories
+# Ongoing Advisories
 
-- 2021-03-13: The VHHA corrected the 114 to 1 for the error observed yesterday.  
-- 2021-03-12: Today the VHHA dashboard showed a count of 114 for "Number of Virginia hospitals experiencing difficulty in obtaining or replenishing other medical supplies in the next 72 hours."  I am assuming this is a typo.  Since early April 2020, this number has never exceed 3.  It's only ever been non-zero about 35 times in the last ~340 days and hasn't been greater than 1 since mid-April 2020.  For now, I recorded the observed 114 as zero, but will correct it if it becomes clear there is, indeed, some sudden and pervasive supply challenge. 
+None.
 
 # Files
 
@@ -45,4 +44,6 @@ Explanations appearing in quotes come directly from the VHHA COVID-19 dashboard
 # Observations
 Various observations of data published in the VHHA Dashboard.
 
+- 2021-03-13: The VHHA corrected the 114 to 1 for the error observed yesterday.  
+- 2021-03-12: Today the VHHA dashboard showed a count of 114 for "Number of Virginia hospitals experiencing difficulty in obtaining or replenishing other medical supplies in the next 72 hours."  I am assuming this is a typo.  Since early April 2020, this number has never exceed 3.  It's only ever been non-zero about 35 times in the last ~340 days and hasn't been greater than 1 since mid-April 2020.  For now, I recorded the observed 114 as zero, but will correct it if it becomes clear there is, indeed, some sudden and pervasive supply challenge. 
 - 2020-12-28: On this day the dashboard showed a count of ICU Surge Beds of 1,269 even though the prior day showed 869 and the next day showed 850.  This was likely a typo from the VHHA.
