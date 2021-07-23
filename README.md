@@ -8,8 +8,7 @@ You are free to reuse this data.  This repository is **not** affiliated with the
 
 # Ongoing Advisories
 
-- The VHHA did not update their COVID-19 dashboard on July 1, 2021.
-- The VHHA did not update their COVID-19 dashboard on July 5, 2021.
+- The VHHA's COVID-19 dashboard for July 23, 2021 omitted 11 of the metrics included in these files.  It is unclear if this is a permanent change, but it appears that it was intentional since the dashboard appeared to be redesigned to no longer show these metrics, not just a transient technical issue with certain numbers on the dashboard appearing blank (as had happened in the past).  
 
 # Files
 
