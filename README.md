@@ -8,7 +8,7 @@ You are free to reuse this data.  This repository is **not** affiliated with the
 
 # Ongoing Advisories
 
-- The VHHA's COVID-19 dashboard for July 23, 2021 omitted 11 of the metrics included in these files.  It is unclear if this is a permanent change, but it appears that it was intentional since the dashboard appeared to be redesigned to no longer show these metrics, not just a transient technical issue with certain numbers on the dashboard appearing blank (as had happened in the past).  
+- Starting July 23, 2021 the VHHA's COVID-19 dashboard dropped 11 of the metrics collected here. 
 
 # Files
 
@@ -23,20 +23,20 @@ Explanations appearing in quotes come directly from the VHHA COVID-19 dashboard 
 - hospitalizedConfirmed: Integer. "Total number of currently hospitalized patients confirmed positive for COVID-19."
 - hospitalizedIcu: Integer. "Combined number of confirmed positive COVID-19 patients, and those whose COVID-19 test results are pending, currently hospitalized in the ICU."
 - hospitalizedTestResultsPending: Integer. "Total number of people currently receiving inpatient hospital care whose COVID-19 test results are pending."
-- hospitalizedVentilator: Integer. "Combined number of hospital patients, both confirmed for COVID-19, and those with test results pending, currently on a ventilator."
-- ventilatorsOnHand: Integer. "Total ventilators on-hand in hospitals."
-- ventilatorsInUse: Integer. "Total ventilators in use at hospitals."
-- ventilatorsUtilization: Decimal (representing a percentage).  "Share of total ventilators in use."
-- bedAvailability: Integer. "Inpatient bed availability"
-- hospitalsPpeDifficulty: Integer. "Number of Virginia hospitals experiencing difficulty in obtaining or replenishing PPE in the next 72 hours."
-- hospitalsOtherDifficulty: Integer. "Number of Virginia hospitals experiencing difficulty in obtaining or replenishing other medical supplies in the next 72 hours."
+- hospitalizedVentilator: Integer. "Combined number of hospital patients, both confirmed for COVID-19, and those with test results pending, currently on a ventilator." The VHHA stopped reporting this statistic as of July 23, 2021.
+- ventilatorsOnHand: Integer. "Total ventilators on-hand in hospitals." The VHHA stopped reporting this statistic as of July 23, 2021.
+- ventilatorsInUse: Integer. "Total ventilators in use at hospitals." The VHHA stopped reporting this statistic as of July 23, 2021.
+- ventilatorsUtilization: Decimal (representing a percentage).  "Share of total ventilators in use." The VHHA stopped reporting this statistic as of July 23, 2021.
+- bedAvailability: Integer. "Inpatient bed availability." The VHHA stopped reporting this statistic as of July 23, 2021. 
+- hospitalsPpeDifficulty: Integer. "Number of Virginia hospitals experiencing difficulty in obtaining or replenishing PPE in the next 72 hours." The VHHA stopped reporting this statistic as of July 23, 2021.
+- hospitalsOtherDifficulty: Integer. "Number of Virginia hospitals experiencing difficulty in obtaining or replenishing other medical supplies in the next 72 hours." The VHHA stopped reporting this statistic as of July 23, 2021.
 - discharged: Integer. "The total number of confirmed COVID-19 patients who have been hospitalized and discharged."
-- icuOccupancy: Decimal (representing a percentage). "ICU Occupancy" and "Current total ICU bed occupancy in Virginia hospitals, including COVID-19 and non-COVID patients."  This comment also applies to the next two statistics.
-- icuSurgeBeds: Integer. "ICU Surge Beds"
-- icuSurgeOccupancy: Decimal (representing a percentage). "ICU Occupancy including Surge Beds". 
+- icuOccupancy: Decimal (representing a percentage). "ICU Occupancy" and "Current total ICU bed occupancy in Virginia hospitals, including COVID-19 and non-COVID patients."  This comment also applies to the next two statistics. The VHHA stopped reporting this statistic as of July 23, 2021.
+- icuSurgeBeds: Integer. "ICU Surge Beds." The VHHA stopped reporting this statistic as of July 23, 2021.
+- icuSurgeOccupancy: Decimal (representing a percentage). "ICU Occupancy including Surge Beds".  The VHHA stopped reporting this statistic as of July 23, 2021.
 
 # Fields in vhhaCovid19Vaccinations.csv
-Explanations appearing in quotes come directly from the VHHA COVID-19 dashboard
+Explanations appearing in quotes come directly from the VHHA COVID-19 dashboard.  NOTE: The VHHA stopped updating this statistic after May 20, 2021 and removed it from the VHHA COVID-19 dashboard on July 23, 2021.
 
 - date: YYYY-MM-DD format.  "Administered as of" date as reported in the dashboard.
 - totalHospitalVaccinations: Integer. "COVID-19 Vaccines Administered by Hospitals. Weekly tally of COVID-19 vaccine doses administered by Virginia hospitals and health systems."  The "weekly tally" explanation from the VHHA is a bit confusing.  This number is, indeed, an inception-to-date cumulative count of COVID-19 vaccinations.
@@ -44,6 +44,7 @@ Explanations appearing in quotes come directly from the VHHA COVID-19 dashboard
 # Observations
 Various observations of data published in the VHHA Dashboard.
 
+- 2021-07-24: On July 23, the VHHA stopped publishing 10 of the daily hospital metrics and the occasional hospital vaccination metric. 
 - 2021-07-05: The VHHA did not update the dashboard for July 5, 2021.
 - 2021-07-01: The VHHA did not update the dashboard for July 1, 2021.
 - 2021-03-13: The VHHA corrected the 114 to 1 for the error observed yesterday.  
