@@ -8,7 +8,7 @@ You are free to reuse this data.  This repository is **not** affiliated with the
 
 # Ongoing Advisories
 
-- Starting July 23, 2021 the VHHA's COVID-19 dashboard dropped 11 of the metrics collected here. 
+- 2021-09-02: The VHHA resumed reporting bed availability statistics today, but differently than before.  A new "Inpatient Beds - Total Available Beds" statistic aligns with their prior total available beds statistic thus is now captured in the same "bedAvailability" field.  The two other new fields (Total ICU Beds, Total non-ICU Beds) don't align with their older statistics so new fields will probably be added to this file to capture those statistics in the next day or two.    
 
 # Files
 
@@ -27,7 +27,7 @@ Explanations appearing in quotes come directly from the VHHA COVID-19 dashboard 
 - ventilatorsOnHand: Integer. "Total ventilators on-hand in hospitals." The VHHA stopped reporting this statistic as of July 23, 2021.
 - ventilatorsInUse: Integer. "Total ventilators in use at hospitals." The VHHA stopped reporting this statistic as of July 23, 2021.
 - ventilatorsUtilization: Decimal (representing a percentage).  "Share of total ventilators in use." The VHHA stopped reporting this statistic as of July 23, 2021.
-- bedAvailability: Integer. "Inpatient bed availability." The VHHA stopped reporting this statistic as of July 23, 2021. 
+- bedAvailability: Integer. "Inpatient Beds - Total available beds." The VHHA stopped did not publish this statistic from July 23, 2021 through September 1, 2021.
 - hospitalsPpeDifficulty: Integer. "Number of Virginia hospitals experiencing difficulty in obtaining or replenishing PPE in the next 72 hours." The VHHA stopped reporting this statistic as of July 23, 2021.
 - hospitalsOtherDifficulty: Integer. "Number of Virginia hospitals experiencing difficulty in obtaining or replenishing other medical supplies in the next 72 hours." The VHHA stopped reporting this statistic as of July 23, 2021.
 - discharged: Integer. "The total number of confirmed COVID-19 patients who have been hospitalized and discharged."
