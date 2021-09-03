@@ -44,6 +44,7 @@ Explanations appearing in quotes come directly from the VHHA COVID-19 dashboard.
 # Observations
 Various observations of data published in the VHHA Dashboard.
 
+- 2021-09-03: When the VHHA published the dashboard on July 6, 2021 the Bed Availability statistic appears to have been double-counted (or something like that).  It was published as 6,885.  On July 4 it was published as 3,602.  No dashboard was published on July 5.  On July 7 it was published as 3,533.  Working under the assumption 6,885 was an error, this value is omitted from the data for July 6.  It appears to be a safe assumption the actual value would have been in the 3,400-3,600 range.  
 - 2021-07-24: On July 23, the VHHA stopped publishing 10 of the daily hospital metrics and the occasional hospital vaccination metric. 
 - 2021-07-05: The VHHA did not update the dashboard for July 5, 2021.
 - 2021-07-01: The VHHA did not update the dashboard for July 1, 2021.
