@@ -8,10 +8,6 @@ You are free to reuse this data.  This repository is **not** affiliated with the
 
 # Ongoing Advisories
 
-- 2021-09-28: The daily value for the COVID-19 patients on a ventilator (hospitalizedVentilator) statistic did not appear on the September 28, 2021 VHHA dashboard.
-- 2021-09-03: Two fields were added to reflect the new ICU/non-ICU Bed Availability statistics published on the VHHA dashboard starting September 2, 2021.
-- 2021-09-02: The VHHA resumed reporting bed availability statistics today, but differently than before.  A new "Inpatient Beds - Total Available Beds" statistic aligns with their prior total available beds statistic thus is now captured in the same "bedAvailability" field.  The two other new fields (Total ICU Beds, Total non-ICU Beds) don't align with their older statistics so new fields will probably be added to this file to capture those statistics in the next day or two.    
-
 # Files
 
 - vhhaCovid19HospitalMetrics.csv: Statistics updated daily by the VHHA.
@@ -49,6 +45,8 @@ Explanations appearing in quotes come directly from the VHHA COVID-19 dashboard.
 Various observations of data published in the VHHA Dashboard.
 
 - 2021-09-03: When the VHHA published the dashboard on July 6, 2021 the Bed Availability statistic appears to have been double-counted (or something like that).  It was published as 6,885.  On July 4 it was published as 3,602.  No dashboard was published on July 5.  On July 7 it was published as 3,533.  Working under the assumption 6,885 was an error, this value is omitted from the data for July 6.  It appears to be a safe assumption the actual value would have been in the 3,400-3,600 range.  
+- 2021-09-03: Two fields were added to this dataset reflect the new ICU/non-ICU Bed Availability statistics published on the VHHA dashboard starting September 2, 2021.
+- 2021-09-02: The VHHA resumed reporting bed availability statistics today, but differently than before.  A new "Inpatient Beds - Total Available Beds" statistic aligns with their prior total available beds statistic thus is now captured in the same "bedAvailability" field.  The two other new fields (Total ICU Beds, Total non-ICU Beds) don't align with their older statistics so new fields will probably be added to this file to capture those statistics in the next day or two.    
 - 2021-07-24: On July 23, the VHHA stopped publishing 10 of the daily hospital metrics and the occasional hospital vaccination metric. 
 - 2021-07-05: The VHHA did not update the dashboard for July 5, 2021.
 - 2021-07-01: The VHHA did not update the dashboard for July 1, 2021.
