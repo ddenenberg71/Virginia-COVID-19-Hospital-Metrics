@@ -7,6 +7,7 @@ Data gleaned daily, by David Denenberg, from the Virginia Hospital & Healthcare 
 You are free to reuse this data.  This repository is **not** affiliated with the Virginia Hospital & Healthcare Association (VHHA) or the Virginia Department of Health (VDH).
 
 # Ongoing Advisories
+- 2022-01-12: The VHHA added two fields to the dashboard today: "Inpatient Staffed Beds - Non-ICU Beds Available (Adult)" and "Inpatient Staffed Beds - ICU Beds Available (Adult)"
 
 # Files
 
@@ -25,15 +26,17 @@ Explanations appearing in quotes come directly from the VHHA COVID-19 dashboard.
 - ventilatorsOnHand: Integer. "Total ventilators on-hand in hospitals." The VHHA stopped reporting this statistic as of July 23, 2021.
 - ventilatorsInUse: Integer. "Total ventilators in use at hospitals." The VHHA stopped reporting this statistic as of July 23, 2021.
 - ventilatorsUtilization: Decimal (representing a percentage).  "Share of total ventilators in use." The VHHA stopped reporting this statistic as of July 23, 2021.
-- bedAvailability: Integer. "Inpatient Beds - Total available beds." The VHHA stopped did not publish this statistic from July 23, 2021 through September 1, 2021.
+- bedAvailability: Integer. "Inpatient Staffed Beds - Total available beds." The VHHA stopped did not publish this statistic from July 23, 2021 through September 1, 2021.
 - hospitalsPpeDifficulty: Integer. "Number of Virginia hospitals experiencing difficulty in obtaining or replenishing PPE in the next 72 hours." The VHHA stopped reporting this statistic as of July 23, 2021.
 - hospitalsOtherDifficulty: Integer. "Number of Virginia hospitals experiencing difficulty in obtaining or replenishing other medical supplies in the next 72 hours." The VHHA stopped reporting this statistic as of July 23, 2021.
 - discharged: Integer. "The total number of confirmed COVID-19 patients who have been hospitalized and discharged."
 - icuOccupancy: Decimal (representing a percentage). "ICU Occupancy" and "Current total ICU bed occupancy in Virginia hospitals, including COVID-19 and non-COVID patients."  This comment also applies to the next two statistics. The VHHA stopped reporting this statistic as of July 23, 2021.
 - icuSurgeBeds: Integer. "ICU Surge Beds." The VHHA stopped reporting this statistic as of July 23, 2021.
 - icuSurgeOccupancy: Decimal (representing a percentage). "ICU Occupancy including Surge Beds".  The VHHA stopped reporting this statistic as of July 23, 2021.
-- totalNonIcuBedsAvailable: Integer. "Inpatient Beds - Total non-ICU beds available (Adult and Pediatric)".  The VHHA started reporting this on September 2, 2021.
-- totalIcuBedsAvailable: Integer. "Inpatient Beds - Total ICU beds available (Adult and Pediatric)".  The VHHA started reporting this on September 2, 2021.
+- totalNonIcuBedsAvailable: Integer. "Inpatient Staffed Beds - Total non-ICU beds available (Adult and Pediatric)".  The VHHA started reporting this on September 2, 2021.
+- totalIcuBedsAvailable: Integer. "Inpatient Staffed Beds - Total ICU beds available (Adult and Pediatric)".  The VHHA started reporting this on September 2, 2021.
+- nonIcuBedsAvailableAdultOnly: Integer. "Inpatient Staffed Beds - Non-ICU Beds Available (Adult)". The VHHA started reporting this on January 12, 2022. 
+- icuBedsAvailableAdultOnly: Integer. "Inpatient Staffed Beds - ICU Beds Available (Adult)". The VHHA started reporting this on January 12, 2022.
 
 # Fields in vhhaCovid19Vaccinations.csv
 Explanations appearing in quotes come directly from the VHHA COVID-19 dashboard.  NOTE: The VHHA stopped updating this statistic after May 20, 2021 and removed it from the VHHA COVID-19 dashboard on July 23, 2021.
