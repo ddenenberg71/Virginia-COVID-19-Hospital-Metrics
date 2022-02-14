@@ -7,7 +7,7 @@ Data gleaned daily, by David Denenberg, from the Virginia Hospital & Healthcare 
 You are free to reuse this data.  This repository is **not** affiliated with the Virginia Hospital & Healthcare Association (VHHA) or the Virginia Department of Health (VDH).
 
 # Ongoing Advisories
-- 2022-01-12: The VHHA added two fields to the dashboard today: "Inpatient Staffed Beds - Non-ICU Beds Available (Adult)" and "Inpatient Staffed Beds - ICU Beds Available (Adult)"
+None.
 
 # Files
 
@@ -47,12 +47,13 @@ Explanations appearing in quotes come directly from the VHHA COVID-19 dashboard.
 # Observations
 Various observations of data published in the VHHA Dashboard.
 
+- 2022-01-12: The VHHA added two fields to the dashboard: "Inpatient Staffed Beds - Non-ICU Beds Available (Adult)" and "Inpatient Staffed Beds - ICU Beds Available (Adult)"
 - 2021-09-03: When the VHHA published the dashboard on July 6, 2021 the Bed Availability statistic appears to have been double-counted (or something like that).  It was published as 6,885.  On July 4 it was published as 3,602.  No dashboard was published on July 5.  On July 7 it was published as 3,533.  Working under the assumption 6,885 was an error, this value is omitted from the data for July 6.  It appears to be a safe assumption the actual value would have been in the 3,400-3,600 range.  
 - 2021-09-03: Two fields were added to this dataset reflect the new ICU/non-ICU Bed Availability statistics published on the VHHA dashboard starting September 2, 2021.
-- 2021-09-02: The VHHA resumed reporting bed availability statistics today, but differently than before.  A new "Inpatient Beds - Total Available Beds" statistic aligns with their prior total available beds statistic thus is now captured in the same "bedAvailability" field.  The two other new fields (Total ICU Beds, Total non-ICU Beds) don't align with their older statistics so new fields will probably be added to this file to capture those statistics in the next day or two.    
+- 2021-09-02: The VHHA resumed reporting bed availability statistics, but differently than before.  A new "Inpatient Beds - Total Available Beds" statistic aligns with their prior total available beds statistic thus is now captured in the same "bedAvailability" field.  The two other new fields (Total ICU Beds, Total non-ICU Beds) don't align with their older statistics so new fields will probably be added to this file to capture those statistics in the next day or two.    
 - 2021-07-24: On July 23, the VHHA stopped publishing 10 of the daily hospital metrics and the occasional hospital vaccination metric. 
 - 2021-07-05: The VHHA did not update the dashboard for July 5, 2021.
 - 2021-07-01: The VHHA did not update the dashboard for July 1, 2021.
 - 2021-03-13: The VHHA corrected the 114 to 1 for the error observed yesterday.  
-- 2021-03-12: Today the VHHA dashboard showed a count of 114 for "Number of Virginia hospitals experiencing difficulty in obtaining or replenishing other medical supplies in the next 72 hours."  I am assuming this is a typo.  Since early April 2020, this number has never exceed 3.  It's only ever been non-zero about 35 times in the last ~340 days and hasn't been greater than 1 since mid-April 2020.  For now, I recorded the observed 114 as zero, but will correct it if it becomes clear there is, indeed, some sudden and pervasive supply challenge. 
+- 2021-03-12: The VHHA dashboard showed a count of 114 for "Number of Virginia hospitals experiencing difficulty in obtaining or replenishing other medical supplies in the next 72 hours."  I am assuming this is a typo.  Since early April 2020, this number has never exceed 3.  It's only ever been non-zero about 35 times in the last ~340 days and hasn't been greater than 1 since mid-April 2020.  For now, I recorded the observed 114 as zero, but will correct it if it becomes clear there is, indeed, some sudden and pervasive supply challenge. 
 - 2020-12-28: On this day the dashboard showed a count of ICU Surge Beds of 1,269 even though the prior day showed 869 and the next day showed 850.  This was likely a typo from the VHHA.
