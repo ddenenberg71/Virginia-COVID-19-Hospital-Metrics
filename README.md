@@ -7,6 +7,7 @@ Data gleaned daily, by David Denenberg, from the Virginia Hospital & Healthcare 
 You are free to reuse this data.  This repository is **not** affiliated with the Virginia Hospital & Healthcare Association (VHHA) or the Virginia Department of Health (VDH).
 
 # Ongoing Advisories
+- 2022-04-22: In March 2022, the VHHA started not reporting statistic values less than 11 to protect the privacy of patients.  At the state level, this was first observed on April 17-18 when the number of confirmed positive COVID-19 patients on ventilators dropped below 11.  This is represented in their dashboard with an asterisk.  In this dataset the non-reported value is omitted (no value instead of an asterisk or zero). 
 - 2022-04-11: The VHHA significantly reduced the number of statistics reported and stopped including patients with pending COVID-19 test results in the remaining statistics.  See notes within the fields list for details.
 
 # Files
