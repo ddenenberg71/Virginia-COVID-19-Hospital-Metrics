@@ -7,8 +7,8 @@ Data gleaned daily, by David Denenberg, from the Virginia Hospital & Healthcare 
 You are free to reuse this data.  This repository is **not** affiliated with the Virginia Hospital & Healthcare Association (VHHA) or the Virginia Department of Health (VDH).
 
 # Ongoing Advisories
-- 2022-04-22: In March 2022, the VHHA started not reporting statistic values less than 11 to protect the privacy of patients.  At the state level, this was first observed on April 17-18 when the number of confirmed positive COVID-19 patients on ventilators dropped below 11.  This is represented in their dashboard with an asterisk.  In this dataset the non-reported value is omitted (no value instead of an asterisk or zero). 
-- 2022-04-11: The VHHA significantly reduced the number of statistics reported and stopped including patients with pending COVID-19 test results in the remaining statistics.  See notes within the fields list for details.
+
+- As of May 2022, the VHHA is generally not publishing updates on the weekends.
 
 # Files
 
@@ -71,7 +71,8 @@ Explanations appearing in quotes come directly from the VHHA COVID-19 dashboard.
 # Observations
 Various observations of data published in the VHHA Dashboard.
 
-- 2022-04-11: The VHHA significantly reduced the number of statistics reported and stopped including patients with pending COVID-19 test results in the remaining statistics.
+- 2022-04-22: In March 2022, the VHHA started not reporting statistic values less than 11 to protect the privacy of patients.  At the state level, this was first observed on April 17-18 when the number of confirmed positive COVID-19 patients on ventilators dropped below 11.  This is represented in their dashboard with an asterisk.  In this dataset the non-reported value is omitted (no value instead of an asterisk or zero). 
+- 2022-04-11: The VHHA significantly reduced the number of statistics reported and stopped including patients with pending COVID-19 test results in the remaining statistics.  See notes within the fields list for details.
 - 2022-01-12: The VHHA added two fields to the dashboard: "Inpatient Staffed Beds - Non-ICU Beds Available (Adult)" and "Inpatient Staffed Beds - ICU Beds Available (Adult)"
 - 2021-09-03: When the VHHA published the dashboard on July 6, 2021 the Bed Availability statistic appears to have been double-counted (or something like that).  It was published as 6,885.  On July 4 it was published as 3,602.  No dashboard was published on July 5.  On July 7 it was published as 3,533.  Working under the assumption 6,885 was an error, this value is omitted from the data for July 6.  It appears to be a safe assumption the actual value would have been in the 3,400-3,600 range.  
 - 2021-09-03: Two fields were added to this dataset reflect the new ICU/non-ICU Bed Availability statistics published on the VHHA dashboard starting September 2, 2021.
