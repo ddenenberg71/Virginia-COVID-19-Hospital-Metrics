@@ -8,7 +8,7 @@ You are free to reuse this data.  This repository is **not** affiliated with the
 
 # Ongoing Advisories
 
-- As of May 2022, the VHHA is generally not publishing updates on the weekends.
+- The VHHA announced they will cease updating the dashboard after April 27, 2023.
 
 # Files
 
@@ -71,6 +71,7 @@ Explanations appearing in quotes come directly from the VHHA COVID-19 dashboard.
 # Observations
 Various observations of data published in the VHHA Dashboard.
 
+- 2022-05-01: As of May 2022, the VHHA is generally not publishing updates on the weekends.
 - 2022-04-22: In March 2022, the VHHA started not reporting statistic values less than 11 to protect the privacy of patients.  At the state level, this was first observed on April 17-18 when the number of confirmed positive COVID-19 patients on ventilators dropped below 11.  This is represented in their dashboard with an asterisk.  In this dataset the non-reported value is omitted (no value instead of an asterisk or zero). 
 - 2022-04-11: The VHHA significantly reduced the number of statistics reported and stopped including patients with pending COVID-19 test results in the remaining statistics.  See notes within the fields list for details.
 - 2022-01-12: The VHHA added two fields to the dashboard: "Inpatient Staffed Beds - Non-ICU Beds Available (Adult)" and "Inpatient Staffed Beds - ICU Beds Available (Adult)"
